@@ -24,7 +24,7 @@ namespace Laboratorio
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //hola
+            //sdfgdsgfdagfsdghsfdhsfhgf
         }
 
         private void toolStripComboBox1_Click(object sender, EventArgs e)
@@ -46,6 +46,6 @@ namespace Laboratorio
         {
 
         }
-       
+        //probando
     }
 }
