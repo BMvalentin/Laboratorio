@@ -37,5 +37,10 @@ namespace Laboratorio
             CargarPacientes();
             txtNombre.Focus();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
