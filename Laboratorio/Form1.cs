@@ -41,6 +41,6 @@ namespace Laboratorio
             tabControl1.TabPages[2].Text = "Practicas";
         }
 
-      
+
     }
 }
