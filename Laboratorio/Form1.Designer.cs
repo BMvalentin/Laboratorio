@@ -51,7 +51,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+
             this.panel2.SuspendLayout();
 
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPacientes)).BeginInit();
@@ -86,8 +86,7 @@
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-
+          
             // panel2
             // 
             this.panel2.Controls.Add(this.button3);
@@ -271,7 +270,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Salir";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+   
 
             // 
             // Form1
@@ -287,7 +286,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
 
 
-            this.panel1.ResumeLayout(false);
+            
             this.panel2.ResumeLayout(false);
 
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPacientes)).EndInit();
