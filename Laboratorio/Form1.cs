@@ -36,16 +36,11 @@ namespace Laboratorio
         {
             CargarPacientes();
             txtNombre.Focus();
+            tabControl1.TabPages[0].Text = "Pacientes"; //nombres de tab pages
+            tabControl1.TabPages[1].Text = "Ingresos";
+            tabControl1.TabPages[2].Text = "Practicas";
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }
